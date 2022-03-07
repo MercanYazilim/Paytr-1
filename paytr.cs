@@ -85,7 +85,7 @@ public partial class iframe_sample : System.Web.UI.Page
                 // İşlem başarılı ise yapılacak işlemler. sipariş onaylama vb
             }else{
                 Response.Write("PAYTR IFRAME failed. reason:" + json.reason + "");
-                // işlem başarısız ise yapılacak işlemler sepete geri döndürme vb
+                // işlem başarısıız ise yapılacak işlemler sepete geri döndürme vb
             }
         }
     }
